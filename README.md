@@ -1,4 +1,3 @@
-# ToursandTravel
 # Tours and Travel Management System
 
 A Java-based Tours and Travel Management System that helps manage customer details, bookings, packages, tickets, and payments.  
@@ -25,6 +24,9 @@ toursandtravel/
 │── .vscode/ # VS Code settings
 │── Recycling Bin/ # Old/unused files
 
+yaml
+Copy code
+
 ---
 
 ## ⚙️ Features
@@ -45,7 +47,27 @@ toursandtravel/
 
 ## 📦 Database Setup
 1. Install MySQL and create a database:
-   ```sql CREATE DATABASE toursandtravel;
+   ```sql
+   CREATE DATABASE toursandtravel;
+Import the schema:
+
+sql
+Copy code
+SOURCE src/database/toursandtravel.sql;
+Update your database credentials in the code (if needed).
+
+▶️ How to Run
+Compile the project:
+
+bash
+Copy code
+javac -d bin src/*.java src/dsa/*.java src/database/*.java
+Run the program:
+
+bash
+Copy code
+java -cp bin;lib/mysql-connector-j-8.0.xx.jar Main
+⚠️ Make sure to add the MySQL Connector/J JAR file in your lib/ folder and include it in your classpath.
 
 📌 Future Enhancements
 Web-based frontend (Spring Boot / React)
