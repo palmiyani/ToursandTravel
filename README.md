@@ -1,47 +1,47 @@
-# Tours and Travel Management System
 
-A Java-based Tours and Travel Management System that helps manage customer details, bookings, packages, tickets, and payments.  
-The project integrates with a MySQL database for storing travel and customer-related data.
+# ✈️ Tours and Travel Management System
+
+A **Java-based Tours and Travel Management System** that allows customers to register, log in, book travel packages, manage tickets, and handle payments.  
+The system uses **MySQL** for database storage and includes custom **data structures** for learning purposes.
 
 ---
 
 ## 📂 Project Structure
-toursandtravel/
-│── src/ # Java source code
-│ ├── Main.java # Entry point of the program
-│ ├── CustomerDetails.java
-│ ├── LoginSystem.java
-│ ├── PackageDetails.java
-│ ├── Payment.java
-│ ├── Ticket.java
-│ ├── database/ # Database schema
-│ │ └── toursandtravel.sql
-│ └── dsa/ # Custom Data Structures
-│ ├── CustomQueue.java
-│ └── LinkedList.java
+toursandtravel<BR>
+│── src/ # Java source code<BR>
+│ ├── Main.java # Entry point of the program<BR>
+│ ├── CustomerDetails.java<BR>
+│ ├── LoginSystem.java<BR>
+│ ├── PackageDetails.java<BR>
+│ ├── Payment.java<BR>
+│ ├── Ticket.java<BR>
+│ ├── database/ # Database schema<BR>
+│ │ └── toursandtravel.sql<BR>
+│ └── dsa/ # Custom Data Structures<BR>
+│ ├── CustomQueue.java<BR>
+│ └── LinkedList.java<BR>
 │
-│── bin/ # Compiled .class files
-│── .vscode/ # VS Code settings
-│── Recycling Bin/ # Old/unused files
-
-yaml
-Copy code
+│── bin/ # Compiled .class files<BR>
+│── .vscode/ # VS Code settings<BR>
+│── Recycling Bin/ # Old/unused files<BR>
 
 ---
 
 ## ⚙️ Features
-- ✅ Customer Registration & Login System  
-- ✅ Manage Travel Packages (add, update, view)  
-- ✅ Ticket Booking & Payment Handling  
-- ✅ MySQL Database Integration  
-- ✅ Custom Data Structures (`LinkedList`, `CustomQueue`)  
+- 👤 **Customer Registration & Login**
+- 🧳 **Travel Package Management** (Add / View / Update)
+- 🎟️ **Ticket Booking**
+- 💳 **Payment Handling**
+- 🗄️ **MySQL Database Integration**
+- 🏗️ **Custom Data Structures** (`LinkedList`, `CustomQueue`)
 
 ---
 
 ## 🛠️ Technologies Used
-- **Java** (Core Java, OOP, Collections)  
-- **MySQL** (Database for storing travel records)  
-- **JDBC** (Java Database Connectivity)  
+- **Java (Core, OOP, Collections)**
+- **MySQL (Database)**
+- **JDBC (Java Database Connectivity)**
+- **VS Code / Eclipse (IDE)**
 
 ---
 
@@ -49,33 +49,19 @@ Copy code
 1. Install MySQL and create a database:
    ```sql
    CREATE DATABASE toursandtravel;
-Import the schema:
 
-sql
-Copy code
-SOURCE src/database/toursandtravel.sql;
-Update your database credentials in the code (if needed).
 
-▶️ How to Run
-Compile the project:
-
-bash
-Copy code
-javac -d bin src/*.java src/dsa/*.java src/database/*.java
-Run the program:
-
-bash
-Copy code
-java -cp bin;lib/mysql-connector-j-8.0.xx.jar Main
-⚠️ Make sure to add the MySQL Connector/J JAR file in your lib/ folder and include it in your classpath.
+<br>⚠️ Make sure you download and add MySQL Connector/J JAR in your lib/ folder.
 
 📌 Future Enhancements
-Web-based frontend (Spring Boot / React)
+🌐 Web-based frontend (Spring Boot / React)
 
-Online booking with payment gateway
+💳 Online payment gateway integration
 
-Admin panel for managing packages and customers
+🔑 Admin panel for managing customers & packages
+
+📊 Reporting & analytics dashboard
 
 👨‍💻 Author
-Developed by PAL MIYANI
+Developed by PAL MIYANI<br>
 GitHub: palmiyani
