@@ -1,0 +1,17 @@
+=================================================
+Ticket Details:
+=================================================
+----+-+-+-+-+-+-+-+-+-+--- Customer Details ----+-+-+-+-+-+-+-+-+-+---
+Customer ID: DSTY438U
+Name: Dhairya
+Email: dhairya@gmail.com
+Phone: 9874563211
+Address: Limbdi
+----+-+-+-+-+-+-+-+-+-+--- Package Details ----+-+-+-+-+-+-+-+-+-+---
+Package ID: PKG002
+Package Name: Goa Tour
+Package Price: 10000.0
+----+-+-+-+-+-+-+-+-+-+--- Payment Details ----+-+-+-+-+-+-+-+-+-+---
+Payment ID: LYLCK3PB8Y
+Total Amount: 11800.0
+Status: Successful

@@ -1,0 +1,17 @@
+=================================================
+Ticket Details:
+=================================================
+----+-+-+-+-+-+-+-+-+-+--- Customer Details ----+-+-+-+-+-+-+-+-+-+---
+Customer ID: PDMW007G
+Name: parikshit
+Email: parikshit@gmail.com
+Phone: 1325465879
+Address: bhavnagar
+----+-+-+-+-+-+-+-+-+-+--- Package Details ----+-+-+-+-+-+-+-+-+-+---
+Package ID: PKG001
+Package Name: Jaipur Tour
+Package Price: 5000.0
+----+-+-+-+-+-+-+-+-+-+--- Payment Details ----+-+-+-+-+-+-+-+-+-+---
+Payment ID: 0FTPX3L5C8
+Total Amount: 5900.0
+Status: Successful
